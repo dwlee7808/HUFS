@@ -29,7 +29,7 @@ public class Main {
     }
     
     public static void deleteNode(int d) {
-        parent[d] = -2; //삭제된 노드 -2로 표시
+        parent[d] = -2; 
         for(int i = 0; i < n; i++) {
             if(parent[i] == d) {
                 deleteNode(i);
