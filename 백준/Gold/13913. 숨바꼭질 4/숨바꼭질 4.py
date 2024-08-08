@@ -4,7 +4,7 @@ n, k = map(int, input().split())
 
 MAX = 10**5 #최대값 100,000
 visited = [0]*(MAX + 1) #방문 표기. 초기값 0. 0~100,000
-check = [-1]*(MAX +1)
+check = [0]*(MAX +1)
 
 def path(d):
     list = []
